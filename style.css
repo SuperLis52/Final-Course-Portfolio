@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+.link-header {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #00ff4c, rgb(0, 0, 255)); /* Задаем градиент */
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Делаем текст прозрачным, чтобы был виден градиент */
+    color: transparent; /* Резервный вариант для старых браузеров */
+}
+    
+
+
+
+h1 {
+    font-size: 30px;
+    color: green;
+    text-shadow: 3px 10px 3px rgb(151, 151, 151);
+}
+
+.pp {
+    font-size: 3px;
+    color: grey;
+    text-align: center;
+    
+}
+
+.pp:hover {
+    transition: all 3s ease-in-out  ;
+    transform: scale(6);
+    color: black
+}
+
+
+
+
+
+
+
+
